@@ -1,0 +1,106 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+
+/*Typo*/
+
+h1, h2, h3, h4, h5, h6{
+    transition: $transition1;
+    hyphens: none;
+}
+
+h1{
+    font-size: clamp(1.5em, 5vw, 3.5em);
+    margin-bottom: 1em;
+}
+
+h1{
+    font-size: clamp(1.25em, 5vw, 2em);
+    margin-bottom: 1em;
+}
+
+
+
+a{
+    color: $colorci;
+    transition: $transition1;
+
+    &:hover{
+        color: $color1;
+    }
+}
+
+.paddingbox{
+    padding: $vmaxpadding;
+}
+
+/*Helpers*/
+
+.invert{
+    filter: invert(1);
+}
+
+/*Buttons*/
+
+.btn, .wp-block-button__link, .wp-block-file .wp-block-file__button{
+    
+    font-size: 1em;
+    background: $colorci;
+    border: none;
+    transition: $transition1;
+    border: 2px solid $colorci;
+    padding: 1em;
+    border-radius: 0;
+    
+    &:hover{
+        text-decoration: none;
+        background-color: $color1;
+        border: 2px solid $color1;
+        color: $colorci;
+    }
+
+    &:focus{
+        text-decoration: none;
+        box-shadow: none;
+        outline: none;
+        background-color: $color1;
+        border: 2px solid $color1;
+        color: $colorci;
+    }
+
+    &.outlined{
+        border: 2px solid $color1;
+        color: $color1;
+        border-radius: 0;
+        background: transparent;
+        transition: $transition1;
+
+        &:hover{
+            background-color: $color1;
+            color: $colorci;
+        }
+    }
+
+    &.selected{
+        background-color: $color1;
+        color: $colorci;
+    }
+}
+
+
+/*Gutenberg Elemente*/
+
+.is-style-outline{
+    .wp-block-button__link{
+        border: 2px solid $color1;
+        color: $color1;
+        border-radius: 0;
+        transition: $transition1;
+
+        &:hover{
+            background-color: $color1;
+            color: $colorci;
+        }
+    }
+}

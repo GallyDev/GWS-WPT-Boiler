@@ -1,0 +1,13 @@
+.block-editor__typewriter{
+    max-width: 90%;
+    margin: 0 auto;
+
+    .wp-block{
+        max-width: unset;
+    }
+
+    .editor-post-title__input{
+        font-family: sans-serif;
+        color: $colorci;
+    }
+}

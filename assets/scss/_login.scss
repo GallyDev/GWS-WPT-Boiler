@@ -1,0 +1,192 @@
+.login{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: $font-base;
+    line-height: 1.5;
+    color: $color1;
+    hyphens: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+
+    #login{
+        
+        max-width: 500px;
+        padding: 3rem;
+        background: #ffffff;
+        position: relative;
+        z-index: 1;
+        border-radius: 50px;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);         
+        margin-bottom: 0!important;
+        margin-top: 5vh;
+    }
+
+    .message{
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+        color: #ffffff;
+        border-radius: 50px;
+        border: none;
+        background: #9acd32;
+        text-align: center;
+    }
+
+    #login_error{
+        padding: 1rem 2rem;
+        margin: 1rem 0;
+        color: #ffffff;
+        border-radius: 50px;
+        border: none;
+        background: #d63638;
+        text-align: center;
+    }
+
+    h1{
+
+        color: $color2;
+        background: transparent;
+        height: auto;
+        z-index: 2;
+
+        a{
+            background-image:url(../style/login/gws-logo.svg);
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            color: $color2;
+            height: 3em;
+            font-size: inherit;
+            font-weight: inherit;
+            line-height: initial;
+            margin: 0 auto 25px;
+            padding: 0;
+            text-decoration: none;
+            width: auto;
+            text-indent: -9999px;
+            outline: 0;
+            overflow: visible;
+            display: block;  
+            &:hover{
+                color: $color3;
+            }
+
+            &:focus{
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    form {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 2rem 0;
+        font-weight: 400;
+        overflow: hidden;
+        background: transparent;
+        border: 0px solid #000000;
+        box-shadow: none;
+        border-radius: .5rem;
+        color: #000000;
+        z-index: 2;
+        text-align: center;
+
+        label{
+            margin-bottom: .5rem;
+        }
+
+        .button.wp-hide-pw{
+            right: 10px;
+            top: 10px;
+            color: #000000;
+
+            &:hover{
+                outline: none;
+                border: 0px;
+                box-shadow: none;
+            }
+
+            &:focus{
+                outline: none;
+                border: 0px;
+                box-shadow: none;
+            }
+        }
+
+        .forgetmenot{
+            margin: 0 auto;
+            float: none;
+        }
+
+        .input{
+                padding: 1rem 2rem;
+                font-size: inherit;
+                border: 2px solid #000000;
+                border-radius: 50px;
+                height: 60px;
+                color: #000000;
+                transition: $transition1;
+                margin-bottom: 1em;
+                background: transparent;
+                box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+
+                &:focus{
+                    outline: none;
+                    border-color: #000000;                
+                    text-decoration: none;
+                    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+                }
+        }
+
+        .button{
+            padding: 1em 2em;
+            background: #000000;
+            color: #ffffff;
+            border-radius: 100px;
+            height: 60px;
+            text-align: center;
+            transition: $transition1;
+            font-size: initial;
+            border: 2px solid #000000;
+            display: block;
+            width: 100%;
+            line-height: 1;
+            margin: 1em 0 0;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+        
+            &:hover{
+                background: #000000;
+                border: 2px solid #000000;
+                opacity: .8;
+                text-decoration: none;
+                box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+
+    a, #backtoblog a, #nav a{
+        color: #000000;
+        display: block;
+        text-align: center;
+        font-size: initial;
+        z-index: 2;
+        margin: 0;
+
+        &:hover{
+            color: #3d3d3d
+        }
+
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    
+    #backtoblog{
+        margin: 0;
+    }
+
+    
+}
