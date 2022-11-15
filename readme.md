@@ -1,4 +1,4 @@
-#Gally Websolutions GmbH - Boiler 2020
+# Gally Websolutions GmbH - Boiler 2020
 
 We created this theme as a starting point for theme-development. 
 Current Bootstrap version is 4.5.2
