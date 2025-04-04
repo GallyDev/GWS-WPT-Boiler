@@ -1,31 +1,4 @@
-# Gally Websolutions GmbH - Boiler 2020
+# Gally Websolutions GmbH - Boiler 2025
 
-We created this theme as a starting point for theme-development. 
-Current Bootstrap version is 4.5.2
-Jquery version is 3.5.1.
-
-Please add notes if major changes happend to the boiler:
-
-###Header file includes
-
-###FrontPage file includes
-
-###Index file includes
-
-###Single file includes
-
-###Page Archive file includes
-
-###Footer file includes
-
-###Loops file includes
-
-
-###Function file include
-* Post thumbnails
-* Menu Support
-* registered widgetareas
-* Gravity forms submit button bootstrap btn class
-
-# gws-boiler
-# gws-boiler
+Completely revamped and overhauled GWS-Boiler based on gally-websolutions.com
+This is not meant to be a working Wordpress-Theme but a repository for the things we commonly use.
