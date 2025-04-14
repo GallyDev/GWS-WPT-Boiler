@@ -12,6 +12,7 @@ add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'templates' );
 add_theme_support( 'custom-logo' );
+add_theme_support( 'title-tag' );
 
 // WP Menüs / Navigation
 add_action( 'init', 'register_my_menus' );
