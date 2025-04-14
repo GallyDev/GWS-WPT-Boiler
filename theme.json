@@ -12,18 +12,23 @@
 			"palette": [
 				{
 					"color": "white",
-					"name": "Base",
-					"slug": "base"
-				},
-				{
-					"color": "black",
-					"name": "Text",
-					"slug": "text"
+					"name": "Light",
+					"slug": "light"
 				},
 				{
 					"color": "grey",
 					"name": "Mid",
 					"slug": "mid"
+				},
+				{
+					"color": "black",
+					"name": "Dark",
+					"slug": "dark"
+				},
+				{
+					"color": "black",
+					"name": "Text",
+					"slug": "text"
 				},
 				{
 					"color": "red",
