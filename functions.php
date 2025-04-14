@@ -99,7 +99,7 @@ function my_acf_blocks_init() {
       acf_register_block_type(array(
           'name'              => 'name',
           'title'             => __('Name im Gutenberg'),
-          'render_template'   => get_template_directory() . '/assets/blocks/…php',
+          'render_template'   => get_template_directory() . '/theme/blocks/…php',
           'category'          => 'formatting',
           'icon'              => 'buddicons-activity',
           'keywords'          => array( 'text', 'post' ),

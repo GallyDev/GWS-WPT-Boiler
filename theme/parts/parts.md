@@ -1,0 +1,1 @@
+Vom Theme benötigte Parts(zB Navi)
