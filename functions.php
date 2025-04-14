@@ -1,13 +1,6 @@
 <?php
 define('THEME_VERSION', '1.0.0' .  time());
 
-// Hintergrundfarben-Optionen
-$background_options = [
-	'var(--wp--preset--color--text)',
-	'var(--wp--preset--color--mid)',
-	'var(--wp--preset--color--accent)'
-];
-
 add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'templates' );
