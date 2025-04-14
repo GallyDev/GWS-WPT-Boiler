@@ -11,24 +11,29 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "white",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
+					"color": "black",
 					"name": "Text",
 					"slug": "text"
 				},
 				{
-					"color": "#f1f1f1",
+					"color": "grey",
 					"name": "Mid",
 					"slug": "mid"
 				},
 				{
-					"color": "#FFC300",
+					"color": "red",
 					"name": "Accent",
 					"slug": "accent"
+				},
+				{
+					"color": "blue",
+					"name": "CI",
+					"slug": "ci"
 				}
 			]
 		},
