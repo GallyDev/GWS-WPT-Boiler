@@ -12,7 +12,6 @@ add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'templates' );
 add_theme_support( 'custom-logo' );
-add_theme_support( 'title-tag' );
 
 // WP Menüs / Navigation
 add_action( 'init', 'register_my_menus' );
@@ -52,19 +51,17 @@ add_action('wp_enqueue_scripts', 'theme_js_files');
 
 
 
-
 //Add CSS
 
 $styles = [
 	[
-		'handle' => 'main',
-		'src' => get_template_directory_uri() . '/style.css',
+		'handle' => 'mother',
+		'src' => get_template_directory_uri() . '/assets/css/mother.css',
 		'deps' => [],
 		'ver' => THEME_VERSION,
 		'media' => 'all', 
 		'editor' => false // false = nur frontend, 'only' = nur editor, true = beides
 	],
-	
 ];
 
 function theme_assets(){
@@ -75,7 +72,6 @@ function theme_assets(){
 		}
 	}
 	wp_enqueue_script( 'pfoffie-script', get_template_directory_uri() . '/assets/js/functions.js', null, THEME_VERSION, true );
-	
 }
 add_action('wp_enqueue_scripts', 'theme_assets');
 
@@ -117,6 +113,3 @@ function render_details( $block_content, $block ) {
 	$block_content = preg_replace('/<summary>(.*?)<\/summary>/', '<summary><h3>$1</h3></summary>', $block_content);
     return $block_content;
 }
-
-
-
