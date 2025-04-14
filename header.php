@@ -12,3 +12,7 @@
 </head>
 	
 <body <?php body_class(isset($class) ? $class : ''); ?>>
+
+  <!--Navigation-->
+    <?php include ("theme/parts/navigation.php"); ?>
+  <!--EndNavigation-->
