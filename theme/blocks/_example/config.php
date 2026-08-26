@@ -1,6 +1,18 @@
 <?php
 $name = basename( __DIR__ );
 
+// Style/Script vorab registrieren
+$style_path = "/theme/blocks/$name/style.css";
+if (file_exists(get_theme_file_path($style_path))) {
+	wp_register_style(
+		"block-$name",
+		get_theme_file_uri($style_path),
+		[],
+		filemtime(get_theme_file_path($style_path))
+	);
+}
+
+
 $block = [
 	'title'             => __('Beispiel'),
 	'description'       => __('Ein Beispiel-Block.'),
@@ -9,7 +21,8 @@ $block = [
 	'category'          => 'widgets',
 	'icon'              => 'groups',
 	'supports'          => array(),
-	'mode'              => 'edit', // 'preview' oder 'edit'
+	'mode'              => 'auto', 
+	'acf_block_version' => 3,  
 
 
 	// automatisch generierte Werte
